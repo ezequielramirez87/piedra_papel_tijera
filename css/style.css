@@ -1,0 +1,56 @@
+@font-face{
+    font-family: dolcevita;
+    src: url(fonts/Dolce\ Vita\ Heavy\ Bold.ttf)
+}
+h1{
+    margin-top: 30px;
+    font-family: 'dolcevita';
+    text-align: center;
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'dolcevita';
+}
+#contenedor{
+    width: 150px;
+    height: 350px;
+    margin: 50px auto;
+}
+button{
+    display: block;
+    margin: 20px;
+    height: 104px;
+    width: 104px;
+    -webkit-box-shadow: -8px -8px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -8px -8px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: -8px -8px 5px 0px rgba(0,0,0,0.75);
+}
+button:active{
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+
+}
+#contador{
+    width: 150px;
+    height: 100px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'dolcevita';
+    font-size: 30px;
+}
+.boton{
+    height: 150px;
+    width: 450px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.swal-button{
+    margin: 0 auto;
+    padding: 0;
+    width: 80px;
+    height: 80px;
+    border: none;
+}

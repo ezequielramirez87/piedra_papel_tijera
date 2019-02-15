@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <title>PIEDRA PAPEL O TIJERA</title>
+</head>
+<body>
+    <h1 id="titulo">PIEDRA PAPEL O TIJERA</h1>
+    <div id="contenedor">
+        <button onclick="elejistePiedra()" id="piedra" ><img src="./img/piedra.png" alt=""></button>
+        <button onclick="elejistePapel()" id="papel"><img src="./img/papel.png" alt=""></button>
+        <button onclick="elejisteTijera()" id="tijera"><img src="./img/tijera.png" alt=""></button>
+    </div>
+    <div id="contador">
+        <p>CONTADOR</p>
+        <p id="contadorPantalla">0</p>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>
